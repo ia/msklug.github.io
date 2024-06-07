@@ -1,15 +1,26 @@
-# Create a Jekyll container from a Ruby Alpine image
+# Create a Jekyll container
 
-# At a minimum, use Ruby 2.5 or later
-FROM ruby:2.7-alpine3.15
+# At a minimum, use Ruby 3.0 or later
+FROM ruby:3.2.2-slim-bullseye
 
 WORKDIR /srv/jekyll
 
-# Add Jekyll dependencies to Alpine
-RUN apk update
-RUN apk add --no-cache build-base gcc cmake git
+# Add Jekyll dependencies
+RUN apt  update  -y
+RUN apt  install -y  --no-install-suggests  --no-install-recommends  build-essential  gcc  cmake  git
 
 COPY ./Gemfile* /srv/jekyll
 
 # Update the Ruby bundler and install Jekyll
-RUN gem update bundler && bundle install
+# # have no idea how it works but jekyll/bundle/ruby always complain about something so it's impossible to use easy & simple commands here;
+# # if it still doesn't work - run:
+# $ docker-compose  -f docker-compose.yml  run  -p 8080:8080  -p 50000:50000  --rm  jekyll
+# two or maybe even three times - usually it helps for local instance.
+RUN gem update bundler
+RUN bundle update github-pages || bundle install
+RUN bundle install
+RUN bundle update github-pages
+RUN bundle install
+
+EXPOSE 8080
+
