@@ -1,7 +1,15 @@
 ---
 permalink: /about
 layout: page
-title: About
+title: О нас/About
 ---
 
+
+## Московская группа пользователей GNU/Linux
+
+---
+
+## Moscow GNU/Linux User group
+
+---
 

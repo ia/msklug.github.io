@@ -1,11 +1,33 @@
+repository: msklug/msklug.github.io
 title: MLUG
-description: Moscow GNU/Linux User Group
-author: ""
+description: |
+        GNU
+        FSF
+        GPL
+        Moscow GNU/Linux User Group
+        Moscow Linux User Group
+        Linux User Group
+        Linux
+        Unix
+        Moscow
+        Russia
+        группа пользователей Linux
+        Москва
+        Россия
+        Линуксоиды
+        Убунта
+        Федора
+        Сервера
+        Сети
+        Программирование
+        Москва
+author: "MLUG"
 
 theme: minima
 
-#base_url: /gh-pages-minima-starter
-repository: ia/gh-pages-minima-starter
+url: https://msklug.github.io
+
+#base_url: /mlug
 
 # Minima social links
 #github_username:
@@ -14,19 +36,25 @@ repository: ia/gh-pages-minima-starter
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
 minima:
   date_format: "%Y.%m.%d"
 
 # Minima: custom header links
 header_pages:
   - _pages/frontpage.md
-  - _pages/about.md
-  - _pages/archive.md
+#  - _pages/about.md
+  - _pages/en.md
+#  - _pages/archive.md
 
 include:
     - _pages
+    - favicon.ico
 
-exclude: 
+exclude:
     - .gitignore
     - docker-compose.yml
     - Gemfile

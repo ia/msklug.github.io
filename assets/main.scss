@@ -1,5 +1,33 @@
 ---
 ---
 
+
 @import "minima";
+
+
+// main font color
+body {
+	color: #111111;
+}
+
+
+// site page header fixup:
+// - remove eye-irritating useless and pointless black bar on the top of each page
+// - remove empty useless gigantic space on the top
+.site-header {
+	border-top: none;
+	min-height: 48px;
+	height: 48px;
+}
+
+
+// override wrapper (div.home and others) width for content from 740px to 800px;
+// source: gh:jekyll/minima: _sass/minima/_base.scss : 200
+.wrapper {
+	max-width: calc(#{$content-width});
+	@media screen {
+		max-width: calc(#{$content-width});
+	}
+}
+
 

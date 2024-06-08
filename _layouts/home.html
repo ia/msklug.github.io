@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 256px;
+  height: 256px;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+</style>
+
+<img src="{{ 'assets/images/mlug256.png' | relative_url }}" alt="mlug" class="center">
+
+<div class="home">
+
+  {%- if page.title -%}
+  <!-- i think it's more clean & simple like that with comments here -->
+  <!-- <h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1> -->
+  {%- endif -%}
+
+  {{ content }}
+
+</div>
+
+
