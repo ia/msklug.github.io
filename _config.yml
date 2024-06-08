@@ -1,26 +1,6 @@
 repository: msklug/msklug.github.io
 title: MLUG
-description: |
-        GNU
-        FSF
-        GPL
-        Moscow GNU/Linux User Group
-        Moscow Linux User Group
-        Linux User Group
-        Linux
-        Unix
-        Moscow
-        Russia
-        группа пользователей Linux
-        Москва
-        Россия
-        Линуксоиды
-        Убунта
-        Федора
-        Сервера
-        Сети
-        Программирование
-        Москва
+description: московская группа пользователей GNU/Linux
 author: "MLUG"
 
 theme: minima

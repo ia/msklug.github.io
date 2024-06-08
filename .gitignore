@@ -5,3 +5,8 @@ _site/
 .vscode
 **/*.swp
 env
+local
+docker-compose.yml
+Dockerfile
+Gemfile
+Gemfile.lock
