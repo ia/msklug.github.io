@@ -23,11 +23,17 @@ body {
 
 // override wrapper (div.home and others) width for content from 740px to 800px;
 // source: gh:jekyll/minima: _sass/minima/_base.scss : 200
+//.wrapper {
+//	max-width: calc(#{$content-width});
+//	@media screen {
+//		max-width: calc(#{$content-width});
+//	}
+//}
+
 .wrapper {
-	max-width: calc(#{$content-width});
+	max-width: 860px;
 	@media screen {
-		max-width: calc(#{$content-width});
+		max-width: 860px;
 	}
 }
-
 

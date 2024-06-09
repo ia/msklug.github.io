@@ -1,3 +1,3 @@
-# Static site of Moscow GNU/Linux User Group
+# Static site for local GNU/Linux User Group
 
 
