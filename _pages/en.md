@@ -25,7 +25,7 @@ Our meetings are taking place in non-official atmosphere and we take all measure
 as possible especially for new comers. During the meetings we usually discuss news from the world of Free Software,
 IT, hardware, etc. but sometimes topics may be very wide.
 
-<u><b>The next meeting</b></u>: _**Friday, June 14, 2024.**_
+<u><b>The next meeting</b></u>: _**Saturday, June 29, 2024.**_
 
 <!-- replacing google maps... -->
 <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.5381957930645!2d37.65743564017482!3d55.75717677415064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c112eb5cd0cb69%3A0xdd8ae470ee73eecf!2sFridays!5e0!3m2!1sru!2sru!4v1717813828366!5m2!1sru!2sru" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
