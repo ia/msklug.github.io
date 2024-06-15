@@ -25,7 +25,7 @@ title: Добро пожаловать!
 за обсуждением новостей из мира Свободного ПО, программного и аппаратного обеспечения,
 а также всего с этим связанного, прямо или очень отдалённо.
 
-<u><b>Следующая встреча</b></u>: _**Пятница, 14 июня 2024 года.**_
+<u><b>Следующая встреча</b></u>: _**суббота, 29 июня 2024 года.**_
 
 <!--<div style="position:relative;overflow:hidden;margin-left:auto;margin-right:auto;display:block;text-align:center;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?indoorLevel=1&ll=37.660731%2C55.757403&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.660731%2C55.757403&z=17" width="850" height="600" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>-->
 
