@@ -7,6 +7,9 @@ title: Добро пожаловать!
 
 ---
 
+<head>
+	<script src="./assets/functions.js" type="text/javascript"></script>
+</head>
 
 ## Страница про встречи млуга
 
@@ -39,4 +42,8 @@ title: Добро пожаловать!
 
 [^time]: _Разумеется, можно приходить и уходить в любое удобное для Вас время._
 [^place]: _Отдельный вход с улицы на первом этаже со стороны Курской, наш столик слева за колонной и на нём <mark>обычно стоит плюшевый пингвин Тукс</mark>._
+
+<script type="text/javascript">
+	document.getElementById("meeting_day").innerHTML=getMeetingDate(1);
+</script>
 
