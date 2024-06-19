@@ -40,7 +40,10 @@ function getMeetingDate(lang) {
 	const t_year = today.getFullYear();
 	// current month, i.e. January
 	const t_month = en_months[today.getMonth()];
-	// current day of the week, i.e. 2 for Tuesday as in from 0 to 6, from Sunday to Saturday; **LUCKILY**, it does not depend on **locale**.
+	/* current day of the week, i.e. 2 for Tuesday as in from 0 to 6, from Sunday to Saturday; **LUCKILY**, it does not depend on **locale**:
+	 * - https://stackoverflow.com/a/67674531
+	 * - https://tc39.es/ecma262/#sec-week-day
+	 */
 	const t_day_n_w = today.getDay();
 	// current day of the month, i.e. 21
 	const t_day_n = today.getDate();
@@ -73,6 +76,7 @@ function getMeetingDate(lang) {
 		}
 		if (f === 2 && second_friday === 0) {
 			second_friday = d;
+			break;
 		}
 	}
 	
