@@ -17,16 +17,16 @@ Hello and welcome!
 We are the Russian Moscow [GNU/Linux User Group](https://en.wikipedia.org/wiki/Linux_user_group) Community,  
 and this is our announcement page about our meetings.
 
-We have our meetings **every second Friday** of every month and **every last Saturday** of every month.  
+Our meetings are held **the second Friday** of each month and **the last Saturday** of each month.  
 
-When: **from ~18:00 untill ~23:00**. [^time]  
-Where: _metro station Kurskaya or Chkalovskaya, Zemlyanoy Val street, 33, Atrium Mall_, **TGI Fridays**. [^place]  
+Time: **from ~18:00 untill ~23:00**. [^time]  
+Location: _metro station Kurskaya or Chkalovskaya, Zemlyanoy Val street, 33, Atrium Mall_, **TGI Fridays**. [^place]  
 
-You may order some food and/or drinks of your choice if you would like to, but **everyone pays for themselves**.  
+You are free to order food and/or drinks, **everyone pays for themselves**.  
 
-Our meetings are taking place in non-official atmosphere and we take all measures to make it as much comfortable
-as possible especially for new comers. During the meetings we usually discuss news from the world of Free Software,
-IT, hardware, etc. but sometimes topics may be very wide.
+Our meetings take place in a casual atmosphere and we put a great effort to make it as comfortable
+as possible especially for newcomers. During our meetings we usually discuss news from the world of Free Software,
+IT, hardware, etc. but sometimes topics may be broad.
 
 <u><b>The next meeting</b></u>: <text id="meeting_day"></text>
 
@@ -43,8 +43,8 @@ IT, hardware, etc. but sometimes topics may be very wide.
 
 <br/>
 
-[^time]: _You may join and leave at any time you want._
-[^place]: _Look for the entrance on the first floor, our table is on the left side from the main door in the left far corner, and <mark>usually we have the plush Tux the Penguin toy and/or "Free Software" pin on the table</mark>._
+[^time]: _Of course, you can join and leave at any time you want._
+[^place]: _Look for the entrance on the first floor, our table is on the left side of the main door in the far left corner, <mark>usually we have the plush Tux the Penguin toy and/or "Free Software" pin on the table</mark>._
 
 <script type="text/javascript">
 	document.getElementById("meeting_day").innerHTML=getMeetingDate(0);
