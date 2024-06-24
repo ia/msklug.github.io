@@ -7,9 +7,7 @@ title: Welcome!
 
 ---
 
-<head>
-	<script src="./assets/functions.js" type="text/javascript"></script>
-</head>
+<script  type="text/javascript"  src="./assets/functions.js"></script>
 
 ## Russian Moscow GNU/Linux User Group Community
 
@@ -46,7 +44,7 @@ IT, hardware, etc. but sometimes topics may be broad.
 [^time]: _Of course, you can join and leave at any time you want._
 [^place]: _Look for the entrance on the first floor, our table is on the left side of the main door in the far left corner, <mark>usually we have the plush Tux the Penguin toy and/or "Free Software" pin on the table</mark>._
 
-<script type="text/javascript">
+<script  type="text/javascript">
 	document.getElementById("meeting_day").innerHTML=getMeetingDate(0);
 </script>
 
