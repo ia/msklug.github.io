@@ -7,9 +7,7 @@ title: Добро пожаловать!
 
 ---
 
-<head>
-	<script src="./assets/functions.js" type="text/javascript"></script>
-</head>
+<script type="text/javascript" src="./assets/functions.js"></script>
 
 ## Страница про встречи млуга
 
