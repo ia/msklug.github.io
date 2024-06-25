@@ -7,7 +7,6 @@ title: Добро пожаловать!
 
 ---
 
-<script type="text/javascript" src="./assets/functions.js"></script>
 
 ## Страница про встречи млуга
 
@@ -44,7 +43,8 @@ title: Добро пожаловать!
 
 
 
-<script type="text/javascript">
+<script  type="text/javascript"  src="./assets/functions.js"></script>
+<script  type="text/javascript">
 	document.getElementById("meeting_day_ru").innerHTML=getMeetingDate(1);
 </script>
 
