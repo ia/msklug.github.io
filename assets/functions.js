@@ -98,7 +98,7 @@ function getMeetingDate(lang) {
 			if (lang === 1) {
 				result_day = "<i><b><u><mark>СЕГОДНЯ</mark></u>, пятница, " + second_friday + " " + ru_months[today.getMonth()] + " " + today.getFullYear() + " года" + ".</b></i>";
 			} else {
-				result_day = "<i><b><u><mark>TODAY</mark></u>, Friday, " + en_months[today.getMonth()] + " " + second_friday + ", " + today.getFullYear() + ".</b></i>";
+				result_day = "<i><b><u><mark>TONIGHT</mark></u>, Friday, " + en_months[today.getMonth()] + " " + second_friday + ", " + today.getFullYear() + ".</b></i>";
 			}
 		} else {
 			if (lang === 1) {
@@ -112,7 +112,7 @@ function getMeetingDate(lang) {
 			if (lang === 1) {
 				result_day = "<i><b><u><mark>СЕГОДНЯ</mark></u>, суббота, " + last_saturday + " " + ru_months[today.getMonth()] + " " + today.getFullYear() + " года" + ".</b></i>";
 			} else {
-				result_day = "<i><b><u><mark>TODAY</mark></u>, Saturday, " + en_months[today.getMonth()] + " " + last_saturday + ", " + today.getFullYear() + ".</b></i>";
+				result_day = "<i><b><u><mark>TONIGHT</mark></u>, Saturday, " + en_months[today.getMonth()] + " " + last_saturday + ", " + today.getFullYear() + ".</b></i>";
 			}
 		} else {
 			if (lang === 1) {
