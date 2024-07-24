@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>MLUG</ShortName>
+  <Description>Moscow Linux User Group</Description>
+  <Tags>mlug moscow community meeting meetings meetup c c++ gnulinux linux unix bash darwin mach gnu freesoftware fsf gpl bsd freebsd security privacy network gcc llvm posix network storage filesystems embedded soldering radio protocols cryptography ux debian ubuntu fedora programming software hardware tools mcu cpu utils debug jtag spi router routers nas das</Tags>
+  <!--  <Contact></Contact> -->
+  <!--<Url type="application/atom+xml" template="https://msklug.github.io/feed.xml"/>-->
+  <LongName>Moscow Linux User Group</LongName>
+  <Image height="128" width="128" type="image/ico">https://msklug.github.io/favicon.ico</Image>
+  <Developer>Moscow Linux User Group</Developer>
+  <Attribution>Copyleft 2024, MSKLUG crew, Some Rights Reserved</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
