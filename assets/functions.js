@@ -120,6 +120,12 @@ function getMeetingDate(lang) {
 			} else {
 				result_day = "<i><b><u><mark>TONIGHT</mark></u>, Saturday, " + en_months[today.getMonth()] + " " + last_saturday + ", " + today.getFullYear() + ".</b></i>";
 			}
+		} else if (t_day_n === last_saturday - 1) {
+			if (lang === 1) {
+				result_day = "<i><b><u><mark>завтра</mark></u>, суббота, " + last_saturday + " " + ru_months[today.getMonth()] + " " + today.getFullYear() + " года" + ".</b></i>";
+			} else {
+				result_day = "<i><b><u><mark>tomorrow</mark></u>, Saturday, " + en_months[today.getMonth()] + " " + last_saturday + ", " + today.getFullYear() + ".</b></i>";
+			}
 		} else {
 			if (lang === 1) {
 				result_day = "<i><b>суббота, " + last_saturday + " " + ru_months[today.getMonth()] + " " + today.getFullYear() + " года" + ".</b></i>";
